@@ -1386,6 +1386,9 @@ Sensor: MS5637-02BA03</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="115,1,53.6686,117.623,SJ1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

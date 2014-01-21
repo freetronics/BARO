@@ -1166,7 +1166,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <sheet>
 <plain>
 <text x="142.24" y="12.7" size="2.54" layer="94">Freetronics Barometric Pressure / Temp Sensor</text>
-<text x="215.9" y="6.858" size="1.778" layer="94">V1.0 (2013-12-18)</text>
+<text x="215.9" y="6.858" size="1.778" layer="94">V1.0 (2014-01-21)</text>
 <text x="141.986" y="6.858" size="1.651" layer="94">www.freetronics.com/baro</text>
 <text x="195.58" y="6.858" size="1.778" layer="94">SKU: BARO</text>
 <text x="175.26" y="149.86" size="1.778" layer="97">Sensor supply voltage: 1.5-3.6V</text>

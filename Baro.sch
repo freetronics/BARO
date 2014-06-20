@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1166,7 +1166,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <sheet>
 <plain>
 <text x="142.24" y="12.7" size="2.54" layer="94">Freetronics Barometric Pressure / Temp Sensor</text>
-<text x="215.9" y="6.858" size="1.778" layer="94">V1.0 (2014-01-21)</text>
+<text x="215.9" y="6.858" size="1.778" layer="94">V1.1 (2014-06-20)</text>
 <text x="141.986" y="6.858" size="1.651" layer="94">www.freetronics.com/baro</text>
 <text x="195.58" y="6.858" size="1.778" layer="94">SKU: BARO</text>
 <text x="175.26" y="149.86" size="1.778" layer="97">Sensor supply voltage: 1.5-3.6V</text>
@@ -1174,18 +1174,19 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <frame x1="139.7" y1="5.08" x2="243.84" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="190.5" y1="5.08" x2="213.36" y2="10.16" columns="8" rows="5" layer="94"/>
 <frame x1="213.36" y1="5.08" x2="243.84" y2="10.16" columns="8" rows="5" layer="94"/>
-<text x="15.24" y="119.38" size="1.778" layer="97">Bridge across solder jumpers 
-to enable I2C pull-ups</text>
+<text x="55.88" y="116.84" size="1.778" layer="97">Cut solder jumpers 
+to disable I2C pull-ups</text>
 <text x="83.82" y="123.698" size="1.778" layer="97">Vdrop 0.18V typ, 0.35V max</text>
-<text x="149.86" y="20.32" size="1.778" layer="94">Copyright 2014 Freetronics Pty Ltd
+<text x="7.62" y="7.62" size="1.778" layer="94">Copyright 2014 Freetronics Pty Ltd
 Designed by Adelmo Eloy
 Released under the TAPR Open Hardware License
 www.tapr.org/OHL</text>
-<text x="15.24" y="12.7" size="1.778" layer="94">Operating voltage: 2.3 - 6Vdc
+<text x="81.28" y="45.72" size="1.9304" layer="94">Operating voltage: 2.3 - 6Vdc
 Pressure range: 1kpa to 200kpa (0.145psi to 29psi)
 Temperature range: -40C to +85C
 I2C address: 0xED
 Sensor: MS5637-02BA03</text>
+<wire x1="50.8" y1="114.3" x2="55.88" y2="114.3" width="0.4064" layer="94"/>
 </plain>
 <instances>
 <instance part="H4" gate="G$1" x="33.02" y="142.24" smashed="yes">
@@ -1387,7 +1388,7 @@ Sensor: MS5637-02BA03</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="115,1,53.6686,117.623,SJ1,,,,,"/>
+<approved hash="113,1,53.6686,117.623,SJ1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -131,7 +131,7 @@
 <wire x1="3.429" y1="6.604" x2="11.684" y2="6.604" width="0.254" layer="22"/>
 <wire x1="11.684" y1="6.604" x2="12.7" y2="7.62" width="0.254" layer="22" curve="90.022562"/>
 <wire x1="12.7" y1="7.62" x2="11.811" y2="8.636" width="0.254" layer="22" curve="89.988722"/>
-<text x="14.859" y="4.318" size="0.7366" layer="22" font="vector" ratio="16" rot="MR0">www.freetronics.com/baro</text>
+<text x="12.319" y="4.318" size="0.9144" layer="22" font="vector" ratio="16" rot="MR0">tron.cc/baro</text>
 <text x="10.922" y="9.144" size="0.8636" layer="22" font="vector" ratio="18" rot="MR0">SKU: BARO</text>
 <text x="12.065" y="7.239" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">freetronics</text>
 <hole x="12.7" y="10.287" drill="3.175"/>
@@ -184,7 +184,7 @@
 <text x="10.16" y="10.668" size="1.016" layer="22" ratio="15" rot="MR0">2.3-6V</text>
 <text x="10.4648" y="7.62" size="1.016" layer="21" font="vector" ratio="15">BARO</text>
 <circle x="4.318" y="4.826" radius="0.254" width="0.254" layer="21"/>
-<text x="2.032" y="3.81" size="1.016" layer="22" ratio="15" rot="MR270">v1.0</text>
+<text x="2.032" y="3.81" size="1.016" layer="22" ratio="15" rot="MR270">v1.1</text>
 <circle x="4.318" y="5.08" radius="0.254" width="0.254" layer="51"/>
 </plain>
 <libraries>
@@ -699,7 +699,20 @@ design rules under a new name.</description>
 <wire x1="6.83" y1="7.084" x2="6.096" y2="6.35" width="0.254" layer="1"/>
 <wire x1="6.096" y1="6.35" x2="6.096" y2="5.334" width="0.254" layer="1"/>
 </signal>
+<signal name="N$2">
+<wire x1="6.604" y1="5.334" x2="7.112" y2="5.334" width="0.2032" layer="1"/>
+</signal>
+<signal name="N$7">
+<wire x1="8.128" y1="5.334" x2="8.636" y2="5.334" width="0.2032" layer="1"/>
+</signal>
 </signals>
+<errors>
+<approved hash="19,1,4473a6336ce476ae"/>
+<approved hash="5,1,ef612486499367b5"/>
+<approved hash="19,1,2632ba137fe01bcb"/>
+<approved hash="19,1,b74a553cacebb697"/>
+<approved hash="19,1,c73a5b1277e113c3"/>
+</errors>
 </board>
 </drawing>
 </eagle>
